@@ -1,0 +1,43 @@
+.ablog{
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.ablog article{
+    line-height: 2rem;
+    font-size: 20px;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.ablog h1{
+    font-size: 60px;
+}
+
+.image{
+    max-width: 600px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blogtime{
+    font-size: 22px;
+}
+
+.blogauthor{
+    font-size: 22px;
+    text-transform: capitalize;
+}

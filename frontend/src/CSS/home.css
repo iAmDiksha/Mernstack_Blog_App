@@ -1,0 +1,42 @@
+.title h1{
+    font-size: 85px;
+}
+
+.title p{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container{
+    padding: 30px 50px;
+}
+
+@media screen and (max-width:600px) {
+    .title h1{
+        font-size: 50px;
+    }
+    
+    .title p{
+        font-size: 20px;
+    }
+    .container{
+        padding: 30px 30px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .title h1{
+        font-size: 40px;
+    }
+    
+    .title p{
+        font-size: 18px;
+    }
+    .container{
+        padding: 30px 10px;
+    }
+}
+

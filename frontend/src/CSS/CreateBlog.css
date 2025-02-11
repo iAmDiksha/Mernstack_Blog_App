@@ -1,0 +1,31 @@
+input,
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  margin: auto;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.form{
+    padding: 40px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.heading{
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
